@@ -1,0 +1,1001 @@
+CustomerID,Age,MonthlyCharges,Tenure,Contract,Churn
+C0001,56,76,25,Month-to-month,Yes
+C0002,69,85,45,Month-to-month,Yes
+C0003,46,115,19,Month-to-month,No
+C0004,32,43,55,Month-to-month,Yes
+C0005,60,119,45,Two year,No
+C0006,25,57,8,Month-to-month,Yes
+C0007,38,116,53,Month-to-month,No
+C0008,56,107,55,Month-to-month,No
+C0009,36,117,32,Month-to-month,No
+C0010,40,31,51,Two year,No
+C0011,28,55,44,Month-to-month,Yes
+C0012,28,43,70,One year,No
+C0013,41,88,18,Two year,Yes
+C0014,70,85,22,Two year,Yes
+C0015,53,36,37,One year,No
+C0016,57,32,56,Two year,No
+C0017,41,52,59,Two year,No
+C0018,20,47,3,One year,No
+C0019,39,67,28,One year,No
+C0020,70,44,35,One year,No
+C0021,19,93,61,Month-to-month,No
+C0022,41,118,54,One year,No
+C0023,61,57,63,Month-to-month,No
+C0024,47,103,7,Month-to-month,No
+C0025,55,68,49,Month-to-month,Yes
+C0026,19,86,31,Month-to-month,No
+C0027,38,46,58,Month-to-month,Yes
+C0028,50,115,61,Month-to-month,Yes
+C0029,29,119,24,One year,No
+C0030,39,73,20,Month-to-month,No
+C0031,61,54,37,Two year,Yes
+C0032,42,46,4,Month-to-month,No
+C0033,66,42,20,Month-to-month,No
+C0034,44,113,60,One year,Yes
+C0035,59,54,24,One year,Yes
+C0036,45,97,50,Month-to-month,Yes
+C0037,33,39,49,Two year,Yes
+C0038,32,96,51,Two year,Yes
+C0039,64,47,36,Month-to-month,Yes
+C0040,68,115,66,Month-to-month,Yes
+C0041,61,63,34,Two year,No
+C0042,69,37,36,One year,No
+C0043,20,69,6,Month-to-month,No
+C0044,54,112,39,Two year,No
+C0045,68,71,42,Month-to-month,No
+C0046,24,70,58,Month-to-month,No
+C0047,38,35,12,Month-to-month,No
+C0048,26,81,3,One year,No
+C0049,56,55,18,One year,No
+C0050,35,93,40,One year,Yes
+C0051,21,88,21,Month-to-month,Yes
+C0052,42,85,15,Month-to-month,No
+C0053,31,88,26,Month-to-month,No
+C0054,67,99,8,One year,Yes
+C0055,26,62,42,Month-to-month,No
+C0056,43,82,44,Month-to-month,No
+C0057,70,51,14,Two year,No
+C0058,19,50,2,Month-to-month,No
+C0059,37,99,37,Two year,No
+C0060,45,99,69,Month-to-month,No
+C0061,64,33,38,One year,No
+C0062,24,104,41,Month-to-month,Yes
+C0063,61,91,62,Two year,No
+C0064,25,91,60,Month-to-month,No
+C0065,64,53,14,Month-to-month,No
+C0066,52,84,2,Month-to-month,No
+C0067,31,38,70,Month-to-month,No
+C0068,34,32,17,Month-to-month,No
+C0069,53,60,28,Two year,No
+C0070,67,69,66,Month-to-month,No
+C0071,57,65,35,One year,No
+C0072,21,53,5,One year,No
+C0073,19,35,65,One year,No
+C0074,23,95,40,Month-to-month,No
+C0075,59,113,56,Month-to-month,No
+C0076,21,104,36,One year,No
+C0077,46,33,45,Two year,No
+C0078,35,108,23,Month-to-month,No
+C0079,43,35,47,Month-to-month,No
+C0080,61,80,31,Month-to-month,No
+C0081,51,91,11,Two year,Yes
+C0082,27,86,10,Month-to-month,Yes
+C0083,53,95,67,Month-to-month,Yes
+C0084,31,108,14,Two year,No
+C0085,48,104,10,Month-to-month,Yes
+C0086,65,37,1,Month-to-month,No
+C0087,32,55,5,One year,No
+C0088,25,80,20,Two year,No
+C0089,31,74,8,Month-to-month,Yes
+C0090,40,73,43,Month-to-month,Yes
+C0091,57,34,1,Month-to-month,No
+C0092,38,99,57,Month-to-month,Yes
+C0093,33,55,64,One year,No
+C0094,62,97,28,Month-to-month,Yes
+C0095,35,48,37,Month-to-month,Yes
+C0096,64,113,47,Month-to-month,No
+C0097,70,49,37,One year,Yes
+C0098,41,41,49,Month-to-month,No
+C0099,43,76,44,Two year,No
+C0100,42,30,56,Month-to-month,No
+C0101,62,119,28,Two year,No
+C0102,58,43,6,Two year,No
+C0103,46,93,61,Month-to-month,No
+C0104,32,67,20,Month-to-month,No
+C0105,62,66,2,Month-to-month,Yes
+C0106,18,40,37,Month-to-month,No
+C0107,42,106,20,Month-to-month,Yes
+C0108,24,32,26,Month-to-month,Yes
+C0109,26,62,29,Month-to-month,Yes
+C0110,41,35,1,Two year,No
+C0111,18,79,35,Month-to-month,No
+C0112,61,39,70,Two year,No
+C0113,25,34,59,Month-to-month,Yes
+C0114,41,52,69,Two year,No
+C0115,28,39,33,One year,Yes
+C0116,68,73,51,Month-to-month,Yes
+C0117,34,31,12,One year,No
+C0118,25,42,20,Month-to-month,Yes
+C0119,52,69,53,Month-to-month,No
+C0120,52,31,43,Two year,No
+C0121,50,113,50,Month-to-month,Yes
+C0122,22,94,29,Month-to-month,No
+C0123,59,92,57,One year,Yes
+C0124,56,102,39,Two year,Yes
+C0125,58,46,56,One year,Yes
+C0126,45,38,43,Month-to-month,No
+C0127,24,104,50,One year,No
+C0128,26,44,23,Month-to-month,No
+C0129,25,53,44,One year,No
+C0130,29,67,38,Two year,No
+C0131,51,64,23,One year,No
+C0132,50,78,45,Two year,No
+C0133,65,98,52,Month-to-month,Yes
+C0134,40,91,50,One year,Yes
+C0135,41,89,8,Two year,No
+C0136,54,79,1,Month-to-month,Yes
+C0137,52,107,8,Two year,No
+C0138,61,104,29,Month-to-month,Yes
+C0139,57,38,5,One year,No
+C0140,39,63,47,Two year,Yes
+C0141,44,105,34,One year,Yes
+C0142,52,64,65,Month-to-month,No
+C0143,18,30,55,One year,No
+C0144,52,69,43,Month-to-month,No
+C0145,54,93,30,Two year,No
+C0146,64,51,17,Month-to-month,No
+C0147,31,89,26,Month-to-month,No
+C0148,20,93,8,One year,Yes
+C0149,18,101,47,Month-to-month,Yes
+C0150,22,40,72,One year,No
+C0151,43,43,46,One year,No
+C0152,31,89,68,Two year,No
+C0153,56,59,33,One year,Yes
+C0154,44,64,1,Month-to-month,No
+C0155,26,114,19,Month-to-month,No
+C0156,32,66,31,Month-to-month,No
+C0157,32,34,14,Month-to-month,No
+C0158,43,112,53,Month-to-month,No
+C0159,59,107,48,One year,No
+C0160,30,55,69,One year,No
+C0161,68,91,62,Month-to-month,Yes
+C0162,49,33,66,Two year,No
+C0163,56,118,64,Two year,No
+C0164,66,71,70,Two year,No
+C0165,69,118,63,One year,No
+C0166,49,47,33,Month-to-month,No
+C0167,21,69,41,Month-to-month,No
+C0168,47,101,48,Month-to-month,No
+C0169,54,68,13,Month-to-month,No
+C0170,40,43,31,Two year,Yes
+C0171,56,61,68,Two year,No
+C0172,62,80,4,Month-to-month,No
+C0173,32,67,19,Month-to-month,Yes
+C0174,60,52,70,Two year,No
+C0175,46,92,13,Month-to-month,No
+C0176,53,44,23,Month-to-month,No
+C0177,30,54,1,Two year,Yes
+C0178,49,46,54,Month-to-month,No
+C0179,24,95,71,Month-to-month,No
+C0180,68,107,15,Month-to-month,Yes
+C0181,39,82,65,Two year,No
+C0182,45,80,71,One year,No
+C0183,19,68,15,Month-to-month,No
+C0184,59,80,21,Month-to-month,No
+C0185,62,99,19,Month-to-month,Yes
+C0186,70,35,60,One year,Yes
+C0187,23,96,33,One year,No
+C0188,45,36,49,Month-to-month,Yes
+C0189,45,80,35,Two year,No
+C0190,61,101,44,Month-to-month,No
+C0191,61,71,11,Month-to-month,No
+C0192,37,93,72,Month-to-month,No
+C0193,47,44,66,Month-to-month,No
+C0194,28,58,46,Month-to-month,No
+C0195,45,62,9,Month-to-month,Yes
+C0196,42,56,3,Month-to-month,Yes
+C0197,56,65,26,One year,No
+C0198,50,58,72,Month-to-month,No
+C0199,18,67,48,One year,No
+C0200,44,86,66,Two year,No
+C0201,69,56,70,Month-to-month,Yes
+C0202,30,84,28,Month-to-month,No
+C0203,58,62,26,Month-to-month,No
+C0204,20,97,25,Month-to-month,No
+C0205,56,115,12,Month-to-month,No
+C0206,23,95,5,One year,No
+C0207,25,39,48,One year,No
+C0208,44,34,37,Month-to-month,No
+C0209,26,103,44,Two year,No
+C0210,54,67,15,Month-to-month,No
+C0211,50,42,43,Two year,Yes
+C0212,68,60,48,One year,No
+C0213,59,76,70,One year,No
+C0214,61,117,46,Month-to-month,Yes
+C0215,41,81,43,Month-to-month,Yes
+C0216,32,85,21,Two year,No
+C0217,49,44,23,Month-to-month,No
+C0218,49,58,47,Two year,No
+C0219,41,37,15,Month-to-month,Yes
+C0220,58,34,25,Month-to-month,Yes
+C0221,69,58,36,Month-to-month,Yes
+C0222,66,76,51,Month-to-month,Yes
+C0223,66,97,15,Two year,Yes
+C0224,69,105,68,Month-to-month,Yes
+C0225,29,74,21,Month-to-month,No
+C0226,56,31,13,Month-to-month,No
+C0227,19,56,19,Month-to-month,Yes
+C0228,20,65,34,Month-to-month,Yes
+C0229,66,65,68,Month-to-month,No
+C0230,54,55,52,Two year,Yes
+C0231,66,72,27,Month-to-month,No
+C0232,34,56,29,Month-to-month,Yes
+C0233,66,98,28,Month-to-month,Yes
+C0234,19,49,35,Month-to-month,Yes
+C0235,19,40,8,Two year,Yes
+C0236,45,103,16,Month-to-month,No
+C0237,40,67,36,Month-to-month,No
+C0238,54,35,30,One year,No
+C0239,49,101,18,Month-to-month,Yes
+C0240,50,52,2,Month-to-month,No
+C0241,18,76,49,Two year,No
+C0242,36,119,4,One year,No
+C0243,19,75,7,Two year,No
+C0244,70,41,39,Month-to-month,Yes
+C0245,61,119,13,Month-to-month,No
+C0246,43,42,31,Month-to-month,No
+C0247,49,91,71,Month-to-month,No
+C0248,23,111,63,Two year,No
+C0249,49,118,56,Month-to-month,No
+C0250,21,89,42,Two year,No
+C0251,28,72,61,One year,No
+C0252,34,105,42,Month-to-month,No
+C0253,55,97,56,Month-to-month,No
+C0254,41,34,36,One year,No
+C0255,22,66,68,Month-to-month,No
+C0256,69,101,7,Two year,No
+C0257,51,60,54,Month-to-month,No
+C0258,23,38,1,Month-to-month,Yes
+C0259,39,80,44,One year,No
+C0260,28,58,45,Two year,No
+C0261,65,107,47,Month-to-month,Yes
+C0262,33,69,13,Two year,No
+C0263,50,70,22,Month-to-month,No
+C0264,26,115,21,One year,Yes
+C0265,23,40,9,One year,No
+C0266,33,52,26,Month-to-month,No
+C0267,46,30,9,Month-to-month,No
+C0268,20,75,15,One year,No
+C0269,37,50,10,Month-to-month,Yes
+C0270,53,119,42,One year,Yes
+C0271,36,65,72,Month-to-month,No
+C0272,43,83,24,Two year,No
+C0273,20,116,49,One year,No
+C0274,36,86,26,Two year,Yes
+C0275,37,30,37,Month-to-month,No
+C0276,49,92,68,One year,Yes
+C0277,24,83,50,One year,Yes
+C0278,69,84,24,Month-to-month,Yes
+C0279,58,69,19,Month-to-month,Yes
+C0280,50,44,60,Month-to-month,No
+C0281,57,50,39,One year,No
+C0282,56,76,18,Month-to-month,No
+C0283,35,102,19,Month-to-month,No
+C0284,57,82,36,One year,No
+C0285,18,38,55,Month-to-month,No
+C0286,28,103,69,Month-to-month,No
+C0287,45,81,47,Two year,No
+C0288,42,86,49,Two year,Yes
+C0289,67,55,33,Month-to-month,No
+C0290,40,70,21,Month-to-month,Yes
+C0291,48,64,22,One year,No
+C0292,47,92,48,Month-to-month,No
+C0293,59,54,37,Month-to-month,Yes
+C0294,52,119,15,Month-to-month,Yes
+C0295,24,104,35,Month-to-month,No
+C0296,33,67,71,One year,No
+C0297,43,31,32,Month-to-month,Yes
+C0298,65,36,11,One year,No
+C0299,69,111,10,Two year,No
+C0300,66,120,57,Month-to-month,No
+C0301,19,63,25,One year,No
+C0302,18,120,2,Two year,No
+C0303,65,46,64,Month-to-month,Yes
+C0304,29,72,35,Month-to-month,No
+C0305,22,88,7,One year,No
+C0306,54,80,18,One year,Yes
+C0307,49,83,67,Two year,Yes
+C0308,26,53,42,Month-to-month,Yes
+C0309,58,54,39,Two year,No
+C0310,52,100,41,Month-to-month,No
+C0311,36,81,24,Month-to-month,No
+C0312,65,99,60,One year,No
+C0313,33,117,46,Month-to-month,No
+C0314,20,62,19,Month-to-month,Yes
+C0315,37,78,68,Month-to-month,Yes
+C0316,41,58,42,Month-to-month,Yes
+C0317,50,92,32,Month-to-month,Yes
+C0318,41,51,39,Two year,No
+C0319,69,55,36,Month-to-month,No
+C0320,28,57,36,One year,No
+C0321,66,114,3,One year,No
+C0322,25,78,8,Two year,No
+C0323,53,100,70,Month-to-month,No
+C0324,55,110,41,Two year,Yes
+C0325,57,113,68,Month-to-month,No
+C0326,37,78,13,One year,Yes
+C0327,52,49,49,One year,No
+C0328,65,115,60,Two year,Yes
+C0329,42,92,2,Month-to-month,Yes
+C0330,52,90,60,One year,No
+C0331,42,78,5,Month-to-month,No
+C0332,46,100,44,One year,Yes
+C0333,35,30,27,Two year,Yes
+C0334,63,42,32,Month-to-month,Yes
+C0335,35,116,21,Two year,Yes
+C0336,19,80,8,Month-to-month,Yes
+C0337,52,85,72,Month-to-month,No
+C0338,33,112,50,Month-to-month,Yes
+C0339,58,91,67,Month-to-month,Yes
+C0340,53,61,44,One year,No
+C0341,50,59,58,Month-to-month,Yes
+C0342,21,58,3,Month-to-month,Yes
+C0343,50,78,70,Two year,No
+C0344,31,74,2,Two year,No
+C0345,38,59,44,Two year,Yes
+C0346,65,45,2,Two year,No
+C0347,37,69,35,One year,No
+C0348,25,48,30,Month-to-month,Yes
+C0349,24,47,8,Month-to-month,No
+C0350,20,30,22,One year,Yes
+C0351,34,107,44,Month-to-month,Yes
+C0352,50,76,58,One year,No
+C0353,65,95,36,Month-to-month,No
+C0354,29,67,69,Month-to-month,No
+C0355,68,80,31,Month-to-month,Yes
+C0356,39,92,47,One year,No
+C0357,39,33,55,One year,No
+C0358,63,30,62,One year,No
+C0359,47,37,30,Month-to-month,Yes
+C0360,55,58,55,Month-to-month,Yes
+C0361,55,84,16,Two year,Yes
+C0362,62,32,12,One year,No
+C0363,68,61,17,Month-to-month,Yes
+C0364,25,39,16,Two year,No
+C0365,44,103,12,Month-to-month,Yes
+C0366,44,112,8,Month-to-month,No
+C0367,51,63,3,Month-to-month,Yes
+C0368,38,116,16,One year,No
+C0369,47,84,30,One year,Yes
+C0370,50,61,23,Month-to-month,Yes
+C0371,45,79,5,Two year,No
+C0372,64,36,65,Month-to-month,No
+C0373,50,37,30,Month-to-month,No
+C0374,22,94,21,Month-to-month,Yes
+C0375,65,86,70,Month-to-month,Yes
+C0376,36,96,22,Month-to-month,Yes
+C0377,21,117,72,One year,No
+C0378,52,116,32,Two year,No
+C0379,66,88,33,Month-to-month,No
+C0380,34,101,16,Month-to-month,Yes
+C0381,61,83,38,Month-to-month,No
+C0382,45,96,14,Month-to-month,Yes
+C0383,47,80,36,Month-to-month,No
+C0384,46,37,23,One year,No
+C0385,63,63,66,Month-to-month,No
+C0386,70,64,2,One year,No
+C0387,23,117,65,Two year,Yes
+C0388,52,107,67,Month-to-month,No
+C0389,58,61,52,Two year,Yes
+C0390,54,75,62,One year,No
+C0391,41,45,23,One year,No
+C0392,46,97,26,Month-to-month,No
+C0393,66,66,68,Month-to-month,No
+C0394,63,83,55,Month-to-month,No
+C0395,70,114,6,Month-to-month,No
+C0396,48,43,35,Month-to-month,No
+C0397,52,84,22,One year,No
+C0398,50,77,43,Month-to-month,No
+C0399,69,111,15,Two year,No
+C0400,38,36,60,One year,No
+C0401,49,103,12,Month-to-month,No
+C0402,40,36,49,Month-to-month,No
+C0403,50,62,42,Two year,No
+C0404,20,52,38,Two year,No
+C0405,35,114,45,One year,Yes
+C0406,42,48,35,Month-to-month,No
+C0407,59,48,30,Month-to-month,Yes
+C0408,48,65,30,Month-to-month,No
+C0409,20,58,6,Month-to-month,Yes
+C0410,57,89,67,One year,No
+C0411,63,111,7,One year,No
+C0412,41,31,52,One year,No
+C0413,67,30,14,Two year,No
+C0414,49,76,15,One year,No
+C0415,64,98,21,Month-to-month,Yes
+C0416,39,49,35,Month-to-month,No
+C0417,40,40,66,Two year,No
+C0418,19,31,2,Month-to-month,No
+C0419,44,96,35,Two year,No
+C0420,59,116,20,Two year,No
+C0421,19,41,10,Month-to-month,No
+C0422,43,49,25,One year,No
+C0423,34,34,66,Two year,No
+C0424,57,66,25,One year,No
+C0425,50,67,54,Two year,Yes
+C0426,26,38,33,Two year,Yes
+C0427,60,82,36,Month-to-month,No
+C0428,65,73,14,Month-to-month,Yes
+C0429,56,115,65,Two year,No
+C0430,46,53,54,One year,No
+C0431,59,110,52,Month-to-month,No
+C0432,43,103,3,Month-to-month,No
+C0433,52,59,41,One year,Yes
+C0434,67,88,6,Two year,No
+C0435,42,116,25,Two year,Yes
+C0436,41,110,13,One year,Yes
+C0437,30,110,8,Month-to-month,No
+C0438,24,43,21,Month-to-month,Yes
+C0439,53,38,68,Two year,No
+C0440,62,69,25,Month-to-month,Yes
+C0441,37,95,68,Month-to-month,No
+C0442,18,54,45,Month-to-month,No
+C0443,25,102,60,One year,No
+C0444,63,51,12,Two year,No
+C0445,33,33,32,Month-to-month,No
+C0446,31,55,13,Month-to-month,No
+C0447,29,87,31,One year,Yes
+C0448,68,58,20,Two year,No
+C0449,40,116,18,Month-to-month,No
+C0450,32,66,60,Month-to-month,No
+C0451,45,104,63,Month-to-month,No
+C0452,51,99,6,Two year,No
+C0453,19,47,32,Month-to-month,No
+C0454,49,114,43,Month-to-month,No
+C0455,40,71,2,One year,No
+C0456,39,70,60,One year,No
+C0457,68,67,23,Month-to-month,Yes
+C0458,42,63,31,Two year,No
+C0459,39,46,5,Month-to-month,No
+C0460,39,66,34,One year,Yes
+C0461,66,54,10,Month-to-month,No
+C0462,69,105,2,One year,Yes
+C0463,59,116,11,Month-to-month,No
+C0464,23,115,50,Two year,No
+C0465,32,114,31,One year,No
+C0466,60,56,56,One year,Yes
+C0467,54,86,9,One year,No
+C0468,50,60,21,One year,Yes
+C0469,25,35,28,Month-to-month,No
+C0470,70,120,62,Month-to-month,No
+C0471,61,69,7,Two year,No
+C0472,61,41,16,Month-to-month,No
+C0473,22,82,4,One year,No
+C0474,56,100,4,Two year,Yes
+C0475,21,39,40,Month-to-month,Yes
+C0476,23,74,17,One year,No
+C0477,62,46,52,Month-to-month,No
+C0478,49,55,52,One year,No
+C0479,69,114,36,Month-to-month,Yes
+C0480,47,91,38,Month-to-month,No
+C0481,64,75,50,One year,No
+C0482,52,93,63,Two year,No
+C0483,57,31,63,One year,Yes
+C0484,69,83,62,Month-to-month,Yes
+C0485,33,94,7,Month-to-month,No
+C0486,30,80,27,One year,No
+C0487,67,82,14,Month-to-month,Yes
+C0488,59,65,71,Two year,No
+C0489,47,55,5,Two year,No
+C0490,36,58,55,One year,No
+C0491,34,50,2,Two year,No
+C0492,36,40,62,Month-to-month,Yes
+C0493,45,69,21,One year,No
+C0494,43,40,21,Month-to-month,No
+C0495,54,65,10,Two year,No
+C0496,43,88,58,Month-to-month,Yes
+C0497,70,68,39,One year,No
+C0498,40,83,5,Two year,No
+C0499,26,84,65,Month-to-month,Yes
+C0500,29,53,13,Month-to-month,Yes
+C0501,70,51,53,One year,No
+C0502,18,98,45,Month-to-month,Yes
+C0503,18,85,32,Month-to-month,No
+C0504,64,62,36,Month-to-month,No
+C0505,51,65,60,Month-to-month,No
+C0506,49,49,11,Two year,Yes
+C0507,65,112,63,One year,No
+C0508,42,110,21,Month-to-month,No
+C0509,57,91,52,Month-to-month,No
+C0510,62,102,55,Month-to-month,No
+C0511,70,55,26,Month-to-month,Yes
+C0512,18,95,68,Month-to-month,No
+C0513,33,102,34,Month-to-month,Yes
+C0514,56,102,52,Month-to-month,No
+C0515,22,69,52,One year,No
+C0516,39,46,29,Month-to-month,No
+C0517,46,30,38,One year,No
+C0518,20,118,42,One year,No
+C0519,29,90,21,One year,No
+C0520,43,72,42,One year,No
+C0521,33,71,13,Month-to-month,Yes
+C0522,68,54,64,Two year,No
+C0523,54,68,17,One year,No
+C0524,39,64,9,Month-to-month,Yes
+C0525,46,32,41,Two year,No
+C0526,31,73,1,One year,No
+C0527,45,80,2,Month-to-month,No
+C0528,22,41,60,Month-to-month,No
+C0529,64,48,48,Month-to-month,Yes
+C0530,66,73,29,Two year,Yes
+C0531,47,88,10,One year,Yes
+C0532,63,78,58,Two year,No
+C0533,69,90,60,One year,No
+C0534,22,46,21,Month-to-month,Yes
+C0535,29,103,28,Month-to-month,Yes
+C0536,33,86,34,One year,No
+C0537,43,84,8,One year,No
+C0538,43,76,59,Two year,Yes
+C0539,65,41,72,Month-to-month,Yes
+C0540,38,91,49,Month-to-month,Yes
+C0541,56,109,17,One year,No
+C0542,53,117,60,One year,No
+C0543,50,112,45,One year,No
+C0544,47,37,69,One year,Yes
+C0545,54,50,32,Month-to-month,Yes
+C0546,40,110,44,One year,Yes
+C0547,27,116,65,One year,No
+C0548,22,109,8,Two year,No
+C0549,53,99,72,Two year,No
+C0550,51,101,43,Month-to-month,No
+C0551,69,54,1,Month-to-month,Yes
+C0552,48,111,51,Two year,No
+C0553,27,118,24,Month-to-month,No
+C0554,36,41,24,Two year,No
+C0555,49,44,17,Month-to-month,No
+C0556,18,88,5,One year,Yes
+C0557,22,55,20,Two year,Yes
+C0558,62,55,21,Two year,Yes
+C0559,21,76,58,Month-to-month,No
+C0560,33,61,31,One year,No
+C0561,41,39,11,Month-to-month,No
+C0562,33,45,52,Month-to-month,No
+C0563,19,100,15,One year,No
+C0564,66,46,7,One year,No
+C0565,45,52,28,Two year,Yes
+C0566,49,55,51,Month-to-month,No
+C0567,44,114,58,Month-to-month,Yes
+C0568,37,115,5,Month-to-month,No
+C0569,41,36,5,Month-to-month,No
+C0570,29,43,8,Month-to-month,Yes
+C0571,67,108,64,One year,No
+C0572,52,36,10,Month-to-month,No
+C0573,50,38,38,Two year,No
+C0574,50,77,8,Two year,No
+C0575,68,101,25,One year,No
+C0576,60,88,66,Two year,Yes
+C0577,54,116,50,One year,Yes
+C0578,29,111,67,Month-to-month,Yes
+C0579,20,68,49,Month-to-month,No
+C0580,18,47,36,Month-to-month,Yes
+C0581,50,88,68,One year,No
+C0582,57,46,41,Two year,No
+C0583,27,43,62,Month-to-month,No
+C0584,60,60,10,Two year,No
+C0585,61,53,21,One year,No
+C0586,46,89,36,Month-to-month,No
+C0587,30,74,12,Two year,Yes
+C0588,29,32,2,Month-to-month,Yes
+C0589,48,66,13,Month-to-month,No
+C0590,63,72,53,One year,Yes
+C0591,19,69,32,Month-to-month,Yes
+C0592,68,119,16,One year,No
+C0593,67,84,32,Month-to-month,Yes
+C0594,52,116,32,Month-to-month,No
+C0595,40,68,11,Two year,Yes
+C0596,34,44,10,Month-to-month,No
+C0597,43,33,15,Month-to-month,No
+C0598,25,115,17,Month-to-month,No
+C0599,46,54,40,Two year,No
+C0600,43,42,18,Month-to-month,No
+C0601,27,111,55,Month-to-month,Yes
+C0602,43,62,25,Month-to-month,No
+C0603,51,45,59,Month-to-month,No
+C0604,68,71,22,Two year,No
+C0605,58,95,30,One year,No
+C0606,24,84,44,Month-to-month,Yes
+C0607,21,71,32,One year,No
+C0608,70,63,51,Month-to-month,No
+C0609,67,59,46,Two year,Yes
+C0610,62,42,21,Two year,No
+C0611,28,42,32,Month-to-month,Yes
+C0612,46,47,39,Two year,Yes
+C0613,53,61,12,One year,Yes
+C0614,42,68,47,Month-to-month,Yes
+C0615,38,75,18,Month-to-month,No
+C0616,53,58,21,Month-to-month,Yes
+C0617,27,91,13,One year,No
+C0618,54,91,21,Two year,No
+C0619,26,86,8,One year,Yes
+C0620,41,45,46,Two year,No
+C0621,52,85,7,One year,No
+C0622,66,39,23,Two year,No
+C0623,52,59,22,One year,Yes
+C0624,65,54,22,Month-to-month,No
+C0625,53,113,29,One year,No
+C0626,35,34,13,Two year,Yes
+C0627,66,94,2,Month-to-month,Yes
+C0628,56,78,29,Two year,No
+C0629,49,32,52,Month-to-month,Yes
+C0630,41,74,27,Month-to-month,No
+C0631,40,43,50,Two year,No
+C0632,49,59,23,Month-to-month,No
+C0633,54,97,44,Month-to-month,No
+C0634,29,47,22,Month-to-month,Yes
+C0635,66,91,43,Two year,Yes
+C0636,30,66,37,Month-to-month,No
+C0637,40,54,61,Two year,No
+C0638,42,77,56,Month-to-month,No
+C0639,52,94,3,Two year,Yes
+C0640,58,82,63,Two year,Yes
+C0641,47,108,19,Month-to-month,Yes
+C0642,34,102,23,Month-to-month,No
+C0643,66,44,29,Month-to-month,Yes
+C0644,37,78,30,One year,No
+C0645,65,117,39,Month-to-month,No
+C0646,42,97,25,Month-to-month,No
+C0647,39,41,8,Month-to-month,Yes
+C0648,30,88,58,Month-to-month,Yes
+C0649,36,66,16,Month-to-month,No
+C0650,66,90,72,One year,No
+C0651,53,72,1,Two year,Yes
+C0652,29,99,5,Month-to-month,No
+C0653,58,68,3,One year,No
+C0654,36,85,65,Month-to-month,Yes
+C0655,29,92,4,Two year,Yes
+C0656,26,75,64,Two year,No
+C0657,24,117,10,Two year,No
+C0658,45,40,21,Two year,Yes
+C0659,31,91,46,Month-to-month,No
+C0660,48,106,27,Two year,No
+C0661,69,54,66,One year,No
+C0662,36,100,41,Month-to-month,No
+C0663,64,81,13,Two year,No
+C0664,33,33,9,Month-to-month,Yes
+C0665,70,88,36,One year,No
+C0666,22,101,58,Month-to-month,No
+C0667,52,49,54,Month-to-month,No
+C0668,29,92,12,One year,No
+C0669,42,83,14,One year,No
+C0670,69,103,34,Month-to-month,No
+C0671,38,86,53,Month-to-month,No
+C0672,53,119,20,Two year,No
+C0673,70,70,16,Month-to-month,Yes
+C0674,40,32,70,Month-to-month,Yes
+C0675,33,35,56,Two year,No
+C0676,56,34,58,Two year,No
+C0677,62,34,4,Month-to-month,Yes
+C0678,70,83,4,One year,No
+C0679,59,76,20,Two year,Yes
+C0680,56,116,10,Two year,Yes
+C0681,31,78,24,Month-to-month,No
+C0682,48,38,26,Month-to-month,No
+C0683,22,49,37,Month-to-month,Yes
+C0684,52,90,54,Month-to-month,Yes
+C0685,40,64,21,One year,No
+C0686,46,79,38,Month-to-month,Yes
+C0687,60,111,46,One year,No
+C0688,28,91,4,Month-to-month,No
+C0689,35,46,60,Month-to-month,Yes
+C0690,64,117,57,Two year,No
+C0691,29,32,45,Month-to-month,Yes
+C0692,26,61,20,Month-to-month,Yes
+C0693,27,42,17,Two year,Yes
+C0694,61,118,71,Month-to-month,Yes
+C0695,34,102,4,One year,Yes
+C0696,55,97,14,One year,Yes
+C0697,24,43,3,Month-to-month,No
+C0698,63,40,58,Two year,No
+C0699,30,85,55,Month-to-month,No
+C0700,57,96,4,Month-to-month,No
+C0701,59,58,24,Month-to-month,No
+C0702,26,38,34,Month-to-month,Yes
+C0703,67,96,30,Two year,No
+C0704,44,54,19,Month-to-month,Yes
+C0705,19,105,31,Month-to-month,Yes
+C0706,22,71,60,Month-to-month,No
+C0707,46,38,60,One year,No
+C0708,54,108,19,Month-to-month,Yes
+C0709,55,69,49,Month-to-month,Yes
+C0710,36,54,63,One year,No
+C0711,25,34,22,Month-to-month,Yes
+C0712,65,40,24,Month-to-month,No
+C0713,62,88,30,Month-to-month,Yes
+C0714,18,117,58,Month-to-month,No
+C0715,39,108,31,Two year,No
+C0716,69,67,64,Month-to-month,No
+C0717,34,101,19,Month-to-month,No
+C0718,24,34,48,Month-to-month,No
+C0719,42,77,45,One year,No
+C0720,62,119,55,One year,Yes
+C0721,21,47,55,Month-to-month,Yes
+C0722,53,99,18,One year,No
+C0723,23,66,63,One year,No
+C0724,48,89,47,Two year,No
+C0725,36,77,57,Two year,Yes
+C0726,61,106,45,Month-to-month,Yes
+C0727,56,57,33,Month-to-month,No
+C0728,44,98,17,Month-to-month,Yes
+C0729,27,106,70,Month-to-month,No
+C0730,43,110,4,Two year,No
+C0731,36,69,20,Month-to-month,Yes
+C0732,56,74,47,Month-to-month,No
+C0733,20,91,15,One year,No
+C0734,62,87,70,Month-to-month,Yes
+C0735,30,96,47,Month-to-month,Yes
+C0736,67,85,9,Month-to-month,Yes
+C0737,45,69,16,Month-to-month,No
+C0738,37,69,69,One year,No
+C0739,45,120,61,Month-to-month,No
+C0740,25,106,10,Month-to-month,No
+C0741,58,62,50,Month-to-month,No
+C0742,56,35,3,Month-to-month,Yes
+C0743,18,117,70,One year,No
+C0744,20,48,51,Month-to-month,Yes
+C0745,30,109,19,Month-to-month,No
+C0746,45,69,42,Two year,No
+C0747,66,88,35,One year,No
+C0748,42,88,46,Month-to-month,Yes
+C0749,50,77,26,One year,No
+C0750,55,70,69,One year,Yes
+C0751,70,42,64,One year,Yes
+C0752,23,74,37,Month-to-month,Yes
+C0753,61,118,49,Two year,Yes
+C0754,62,82,21,Month-to-month,Yes
+C0755,49,71,64,Month-to-month,No
+C0756,62,92,5,Month-to-month,No
+C0757,64,56,70,Month-to-month,Yes
+C0758,38,67,4,Two year,Yes
+C0759,33,89,39,Month-to-month,Yes
+C0760,38,36,35,Month-to-month,Yes
+C0761,28,34,1,Two year,Yes
+C0762,54,74,24,Month-to-month,No
+C0763,53,87,57,Month-to-month,Yes
+C0764,52,60,70,Month-to-month,No
+C0765,36,52,41,Month-to-month,Yes
+C0766,37,71,54,Month-to-month,No
+C0767,35,39,46,One year,No
+C0768,64,61,60,Month-to-month,No
+C0769,58,82,60,Month-to-month,No
+C0770,66,59,57,One year,No
+C0771,31,68,31,One year,Yes
+C0772,32,60,24,Month-to-month,No
+C0773,48,111,36,Month-to-month,Yes
+C0774,18,31,30,Month-to-month,No
+C0775,70,107,24,Month-to-month,Yes
+C0776,20,106,30,Month-to-month,Yes
+C0777,33,41,7,Month-to-month,Yes
+C0778,40,68,35,Two year,No
+C0779,28,95,55,Month-to-month,No
+C0780,29,42,14,One year,Yes
+C0781,27,75,10,Month-to-month,Yes
+C0782,49,56,16,One year,Yes
+C0783,33,46,54,One year,Yes
+C0784,25,89,70,Two year,No
+C0785,55,93,44,Month-to-month,Yes
+C0786,29,117,45,One year,Yes
+C0787,41,64,56,Month-to-month,Yes
+C0788,45,99,57,One year,No
+C0789,70,112,21,Month-to-month,Yes
+C0790,25,59,68,Month-to-month,Yes
+C0791,45,100,50,Month-to-month,Yes
+C0792,53,103,33,Month-to-month,Yes
+C0793,43,92,7,Month-to-month,No
+C0794,25,57,70,Month-to-month,Yes
+C0795,67,89,15,Two year,Yes
+C0796,45,108,32,One year,No
+C0797,45,66,20,Two year,No
+C0798,54,51,15,Month-to-month,No
+C0799,58,97,48,Two year,No
+C0800,53,49,71,Two year,No
+C0801,44,97,21,One year,No
+C0802,34,120,42,One year,No
+C0803,26,93,26,Month-to-month,No
+C0804,50,46,14,Two year,Yes
+C0805,70,41,57,Month-to-month,Yes
+C0806,37,51,37,Month-to-month,Yes
+C0807,30,46,58,Month-to-month,No
+C0808,45,39,21,Two year,No
+C0809,65,94,69,Two year,No
+C0810,46,51,3,Two year,No
+C0811,30,119,37,One year,No
+C0812,63,111,49,Month-to-month,Yes
+C0813,52,79,19,Month-to-month,Yes
+C0814,23,43,12,Month-to-month,No
+C0815,35,93,61,Month-to-month,No
+C0816,68,76,41,Month-to-month,Yes
+C0817,22,58,33,Month-to-month,No
+C0818,64,105,50,Month-to-month,Yes
+C0819,42,65,68,Two year,No
+C0820,19,81,71,Month-to-month,Yes
+C0821,27,105,33,Two year,No
+C0822,47,36,24,One year,No
+C0823,67,58,61,Month-to-month,Yes
+C0824,62,40,61,Month-to-month,Yes
+C0825,22,62,28,Month-to-month,No
+C0826,50,35,58,Month-to-month,No
+C0827,18,108,43,One year,No
+C0828,35,61,41,Month-to-month,Yes
+C0829,49,80,39,Month-to-month,No
+C0830,64,104,49,Month-to-month,Yes
+C0831,66,87,17,Two year,Yes
+C0832,28,116,70,One year,No
+C0833,38,55,70,One year,No
+C0834,43,75,65,Month-to-month,Yes
+C0835,42,58,5,One year,Yes
+C0836,39,33,2,One year,No
+C0837,44,110,22,One year,Yes
+C0838,66,42,57,Two year,No
+C0839,30,68,66,Month-to-month,No
+C0840,50,44,16,Two year,Yes
+C0841,51,58,51,Two year,Yes
+C0842,58,58,39,Month-to-month,Yes
+C0843,52,104,40,Month-to-month,No
+C0844,18,61,38,Two year,No
+C0845,38,31,60,Month-to-month,No
+C0846,65,76,59,Month-to-month,No
+C0847,23,107,10,Two year,No
+C0848,45,113,64,One year,No
+C0849,34,51,63,Month-to-month,No
+C0850,22,104,49,One year,No
+C0851,48,56,64,Month-to-month,No
+C0852,22,96,32,Month-to-month,No
+C0853,55,110,7,Month-to-month,No
+C0854,20,85,21,One year,Yes
+C0855,70,50,20,Month-to-month,Yes
+C0856,40,76,26,One year,Yes
+C0857,54,109,68,One year,Yes
+C0858,70,88,15,Month-to-month,Yes
+C0859,54,113,14,One year,No
+C0860,27,35,27,Month-to-month,No
+C0861,27,48,40,One year,Yes
+C0862,36,86,58,Month-to-month,No
+C0863,34,98,28,Two year,No
+C0864,38,32,26,Month-to-month,Yes
+C0865,31,30,63,Month-to-month,No
+C0866,26,87,66,One year,No
+C0867,63,67,25,Month-to-month,No
+C0868,18,44,3,Month-to-month,No
+C0869,68,63,72,One year,No
+C0870,62,90,44,One year,Yes
+C0871,30,64,42,One year,No
+C0872,21,93,6,Month-to-month,Yes
+C0873,18,54,39,One year,No
+C0874,66,53,52,Month-to-month,Yes
+C0875,57,41,23,One year,Yes
+C0876,49,47,50,One year,No
+C0877,51,44,43,Month-to-month,No
+C0878,45,109,19,Month-to-month,No
+C0879,48,56,69,Month-to-month,Yes
+C0880,25,101,51,Month-to-month,Yes
+C0881,56,89,11,Month-to-month,Yes
+C0882,43,75,12,Month-to-month,Yes
+C0883,51,118,8,One year,Yes
+C0884,20,46,24,Month-to-month,Yes
+C0885,67,82,41,Two year,No
+C0886,29,37,36,Month-to-month,Yes
+C0887,18,108,72,One year,No
+C0888,61,56,55,One year,No
+C0889,22,75,9,Month-to-month,Yes
+C0890,47,79,47,Month-to-month,No
+C0891,47,100,15,One year,Yes
+C0892,34,32,48,Month-to-month,Yes
+C0893,65,93,42,Two year,No
+C0894,64,73,60,Month-to-month,Yes
+C0895,40,82,70,Two year,No
+C0896,32,53,12,Month-to-month,Yes
+C0897,54,89,2,One year,No
+C0898,38,32,7,One year,No
+C0899,31,49,3,One year,Yes
+C0900,19,75,3,Month-to-month,Yes
+C0901,28,44,27,One year,No
+C0902,68,54,40,Month-to-month,No
+C0903,56,107,33,One year,No
+C0904,55,100,1,Month-to-month,Yes
+C0905,51,46,8,Two year,No
+C0906,55,113,32,Month-to-month,No
+C0907,67,38,48,Two year,No
+C0908,51,67,4,Two year,No
+C0909,35,77,70,Two year,No
+C0910,47,89,19,Month-to-month,No
+C0911,32,92,32,Month-to-month,Yes
+C0912,44,115,9,Two year,No
+C0913,68,31,12,Month-to-month,No
+C0914,51,117,11,Month-to-month,Yes
+C0915,69,101,46,One year,Yes
+C0916,55,40,16,One year,No
+C0917,50,93,1,Month-to-month,Yes
+C0918,41,106,63,One year,No
+C0919,32,110,21,Two year,Yes
+C0920,47,101,30,Month-to-month,No
+C0921,59,50,13,Two year,No
+C0922,68,47,34,Month-to-month,Yes
+C0923,34,93,4,Month-to-month,No
+C0924,22,111,28,Month-to-month,No
+C0925,46,67,59,Month-to-month,No
+C0926,21,61,27,Two year,No
+C0927,27,40,69,Month-to-month,No
+C0928,34,74,25,Month-to-month,No
+C0929,27,118,3,Month-to-month,Yes
+C0930,34,62,68,One year,No
+C0931,37,70,25,One year,No
+C0932,41,37,20,Month-to-month,No
+C0933,22,40,34,Month-to-month,Yes
+C0934,51,115,26,Two year,No
+C0935,23,80,5,Month-to-month,Yes
+C0936,70,117,61,Month-to-month,No
+C0937,19,70,9,Month-to-month,Yes
+C0938,30,46,50,One year,Yes
+C0939,60,105,6,Month-to-month,Yes
+C0940,60,75,60,Month-to-month,Yes
+C0941,65,61,44,Month-to-month,No
+C0942,28,108,11,Two year,No
+C0943,68,109,66,Month-to-month,No
+C0944,64,83,47,One year,Yes
+C0945,40,115,3,Month-to-month,Yes
+C0946,33,49,30,Month-to-month,No
+C0947,48,62,21,One year,No
+C0948,28,103,28,Month-to-month,Yes
+C0949,33,69,62,Two year,No
+C0950,25,61,33,Two year,No
+C0951,21,31,35,Two year,No
+C0952,57,62,52,Month-to-month,No
+C0953,21,106,34,One year,No
+C0954,42,59,41,Month-to-month,Yes
+C0955,20,62,51,Two year,No
+C0956,49,106,47,One year,Yes
+C0957,20,55,58,Two year,No
+C0958,44,51,57,Month-to-month,No
+C0959,46,95,23,Month-to-month,Yes
+C0960,49,67,48,Month-to-month,Yes
+C0961,67,119,22,One year,No
+C0962,68,75,17,Month-to-month,No
+C0963,36,44,69,Month-to-month,No
+C0964,38,73,11,One year,No
+C0965,22,78,15,One year,No
+C0966,35,104,35,Month-to-month,No
+C0967,45,90,33,One year,No
+C0968,59,96,16,Month-to-month,No
+C0969,39,35,34,Month-to-month,No
+C0970,38,38,66,Month-to-month,Yes
+C0971,23,35,40,Month-to-month,Yes
+C0972,18,102,28,Month-to-month,Yes
+C0973,22,61,47,One year,Yes
+C0974,58,70,39,Month-to-month,Yes
+C0975,29,105,70,Month-to-month,No
+C0976,43,37,20,Two year,No
+C0977,63,101,1,Month-to-month,Yes
+C0978,51,79,72,Month-to-month,Yes
+C0979,66,91,63,One year,Yes
+C0980,31,113,67,Two year,No
+C0981,43,91,4,One year,No
+C0982,62,36,58,One year,No
+C0983,44,104,25,Two year,No
+C0984,26,113,47,Month-to-month,Yes
+C0985,43,109,38,Two year,No
+C0986,64,33,15,Month-to-month,No
+C0987,39,35,63,Two year,No
+C0988,64,87,21,Month-to-month,No
+C0989,47,51,57,One year,No
+C0990,60,55,53,Month-to-month,No
+C0991,65,32,46,One year,No
+C0992,34,70,14,Month-to-month,Yes
+C0993,43,89,17,Two year,No
+C0994,53,43,39,Two year,Yes
+C0995,18,104,9,Month-to-month,No
+C0996,25,111,6,Two year,No
+C0997,66,41,23,One year,No
+C0998,52,116,59,One year,Yes
+C0999,69,41,46,Month-to-month,No
+C1000,32,42,38,Month-to-month,No
